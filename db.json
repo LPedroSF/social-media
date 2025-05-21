@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "user@example.com",
+      "password": "password123",
+      "name": "User One",
+      "theme": "light"
+    },
+    {
+      "id": "2",
+      "email": "user1@example.com",
+      "password": "password123",
+      "name": "User Two",
+      "theme": "dark"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "name": "Emily Carter",
+      "post_content": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+      "post_type": "image",
+      "created_at": "2024-06-01T18:30:00Z",
+      "likes": 25,
+      "hashtags": [
+        "#sunset",
+        "#nature",
+        "#photography"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Michael Lee",
+      "post_content": "Just finished a 5k run!",
+      "post_type": "text",
+      "created_at": "2024-06-02T07:15:00Z",
+      "likes": 10,
+      "hashtags": [
+        "#running",
+        "#fitness",
+        "#morning"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Sofia Ramirez",
+      "post_content": "https://media.tenor.com/ydI2nktiICsAAAAM/cat-dance-dancing-cat.gif",
+      "post_type": "video",
+      "created_at": "2024-06-03T14:45:00Z",
+      "likes": 40,
+      "hashtags": [
+        "#skateboarding",
+        "#tricks",
+        "#video"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Liam Nguyen",
+      "post_content": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuVMd8kv9ssbgoivAVHI_sEdb6kMjjO6ciGA&s",
+      "post_type": "image",
+      "created_at": "2024-06-04T19:20:00Z",
+      "likes": 18,
+      "hashtags": [
+        "#sushi",
+        "#foodie",
+        "#homemade"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Ava Johnson",
+      "post_content": "Reading a great book by the lake.",
+      "post_type": "text",
+      "created_at": "2024-06-05T16:05:00Z",
+      "likes": 22,
+      "hashtags": [
+        "#reading",
+        "#relaxing",
+        "#lakeview"
+      ]
+    }
+  ]
+}

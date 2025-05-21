@@ -1,0 +1,50 @@
+.header {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--pic {
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+}
+
+.header__details--info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header__details--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__details--item-name {
+  padding: 8px 16px;
+}
+
+.header__details--item p{
+  margin: 0;
+}
+
+.influencer__posts {
+  width: 90%;
+  padding: 8px;
+}
+
+.influencer__posts--title {
+  align-self: flex-start;
+}

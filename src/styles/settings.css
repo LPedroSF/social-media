@@ -1,0 +1,49 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings__header {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.settings__header--button {
+  border: none;
+  background-color: transparent;
+}
+
+.settings__header--button:hover {
+  cursor: pointer;
+}
+
+.settings__header--icon {
+  font-size: 24px;
+}
+
+.settings__menu {
+  width:100%;
+}
+
+.settings__menu--option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.settings__menu--option h3 {
+  margin: 0;
+}
+
+.settings__menu--select {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 15px;
+}
