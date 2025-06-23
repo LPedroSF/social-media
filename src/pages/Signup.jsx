@@ -26,24 +26,21 @@ export default function Signup() {
       <h1>Signup</h1>
       <form onSubmit={handleSignup} className="form">
         <input
-          className="w-full border p-2"
           type="text"
           placeholder="Name"
           onChange={(e) => setName(e.target.value)}
         />
         <input
-          className="w-full border p-2"
           type="email"
           placeholder="Email"
           onChange={(e) => setEmail(e.target.value)}
         />
         <input
-          className="w-full border p-2"
           type="password"
           placeholder="Password"
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button className="bg-green-500 text-white px-4 py-2 rounded" type="submit">
+        <button type="submit">
           Sign Up
         </button>
       </form>

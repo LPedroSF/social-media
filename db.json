@@ -5,7 +5,7 @@
       "email": "user@example.com",
       "password": "password123",
       "name": "User One",
-      "theme": "light"
+      "theme": "dark"
     },
     {
       "id": "2",
